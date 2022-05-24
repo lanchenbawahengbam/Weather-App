@@ -1,0 +1,84 @@
+.App {
+  padding: 20px 10px;
+  font-family: Montserrat;
+}
+.WeatherLogo {
+  width: 150px;
+  height: 150px;
+  margin: 40px auto;
+}
+.CityLabel {
+  color: aliceblue;
+  font-family: Montserrat;
+}
+.weatherBg {
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 3px 6px rgb(230, 10, 10);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: rgb(238, 236, 243);
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+.weatherResultBox {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+
+  box-shadow: 0 3px 6px rgb(17, 238, 87);
+  font-family: Montserrat;
+}
+.weatherIcon {
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.weatherCity {
+  font-size: 35px;
+}
+.weatherTemp {
+  font-size: 55px;
+  font-weight: 700;
+}
+.FooterInfo {
+  font-family: Montserrat;
+}
+.SearchBox {
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 2px;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px auto;
+  font-family: Montserrat;
+}
+.form-control {
+  box-shadow: 2px 4px 8px rgba(17, 238, 87, 0.847);
+}
+.btn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+  margin-left: 20px;
+  color: rgb(235, 235, 238);
+  background: blue;
+  font-family: Montserrat;
+}
+.Close {
+  display: flex;
+  margin-left: 460px;
+  color: aqua;
+  background-color: red;
+  font-family: Montserrat;
+  font-size: 20px;
+}
